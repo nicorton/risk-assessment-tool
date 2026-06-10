@@ -515,7 +515,7 @@ export default function App() {
           </div>
 
           <button type="submit" disabled={isSubmitting} style={{ ...PREMIUM_BUTTON_STYLE, width: '100%', padding: '14px', opacity: isSubmitting ? 0.7 : 1 }}>
-            {isSubmitting ? "Processing Roadmap..." : "Submit and View My Analysis"}
+            {isSubmitting ? "Processing Roadmap..." : "View My Quick Analysis"}
           </button>
         </form>
       </div>
@@ -544,6 +544,9 @@ export default function App() {
         </section>
 
         <div style={{ textAlign: 'center', padding: '10px 0 35px 0', borderBottom: '1px solid #eee', marginBottom: '30px' }}>
+                    <p style={{ fontSize: '16px', marginBottom: '20px', lineHeight: '1.5' }}>
+            For a limited time we are offering a Full Closing Risk Assessment Analysis Report and Review with a Technical Accounting Solutions Consultant. Use the button below to schedule your review.
+          </p>
           <button onClick={handleRedirectToChiliPiper} style={{ ...PREMIUM_BUTTON_STYLE, padding: '16px 36px', boxShadow: '0 4px 12px rgba(11,52,86,0.15)' }}>
             Schedule My Report Review
           </button>
@@ -551,7 +554,7 @@ export default function App() {
 
         <section style={{ marginBottom: '40px' }}>
           <h2 style={{ borderBottom: '2px solid #ccc', paddingBottom: '8px', marginBottom: '25px', lineHeight: '1.3' }}>Your Critical Gaps</h2>
-          <p style={{ color: '#444', lineHeight: '1.5' }}>We\'ve analyzed your responses across the three pillars of technical accounting. Based on your inputs, here are your primary exposure points:</p>
+          <p style={{ color: '#444', lineHeight: '1.5' }}>We've analyzed your responses across the three pillars of technical accounting. Based on your inputs, here are your primary exposure points:</p>
 
           <div style={{ margin: '25px 0', padding: '15px', backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
             <h4 style={{ margin: '0 0 5px 0', color: '#555', letterSpacing: '0.5px', fontSize: '18px' }}>
@@ -577,7 +580,7 @@ export default function App() {
 
         <footer style={{ textAlign: 'center', marginTop: '5px', padding: '30px 10px', borderTop: '1px solid #eee' }}>
           <p style={{ fontSize: '16px', marginBottom: '20px', lineHeight: '1.5' }}>
-            Schedule time to discuss these findings with a FinQuery expert.
+            For a limited time we are offering a Full Closing Risk Assessment Analysis Report and Review with a Technical Accounting Solutions Consultant. Use the button below to schedule your review.
           </p>
           <button onClick={handleRedirectToChiliPiper} style={{ ...PREMIUM_BUTTON_STYLE, padding: '16px 36px' }}>
             Schedule My Report Review
